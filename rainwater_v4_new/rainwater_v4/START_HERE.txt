@@ -1,0 +1,14 @@
+EASIEST WAY (Windows)
+1. Unzip the folder.
+2. Double-click  start.bat
+3. A black window opens. KEEP IT OPEN. Open  http://127.0.0.1:5000  in your browser.
+4. Click "Upload your dataset (any file)" and choose your file. Wait for the training screen to finish.
+5. In "Predict by Date" pick a date. The prediction, the chart and the table cover the 6 months that start at that date.
+
+MANUAL WAY
+   cd backend
+   python -m pip install -r requirements.txt
+   python app.py
+   then open http://127.0.0.1:5000
+
+No Node.js or npm is needed. The dashboard is already built (frontend/dist).
